@@ -1,0 +1,50 @@
+:root{
+    --bg-first: linear-gradient(to left, #FF0603, #FF8637);
+}
+
+
+body{
+    font-family: 'Manrope', sans-serif;
+}
+.rabbi{
+    position: relative;
+    z-index: -1;
+}
+.popup{
+    margin-top: -100px;
+    z-index: 10;
+}
+.text-personal{
+    color: var(--bg-first);
+}
+.btn-personal{
+    background: var(--bg-first);
+}
+.bg-personal{
+    background: var(--bg-first);
+}
+.bg-personal-1{
+    background:linear-gradient(to left, #FFE6E6, #FFF2EA);
+}
+.bg-personal-2{
+    background:#EEF1EB;
+}
+.bg-personal-3{
+    background:#FCF6E9;
+}
+.bg-personal-4{
+    background: linear-gradient(to right, #DEDEDE, #fff);
+}
+.img-box{
+    height: 100px;
+    width: 100px;
+    background: #fff;
+}
+.supper-card{
+    margin: -25px 0px 0px -50px;
+}
+.boss{
+    margin-top: 177px;
+    z-index: 1;
+    margin-left: -100px;
+}
